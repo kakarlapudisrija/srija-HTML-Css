@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+.form
+{
+	width:30%;
+	height:75%;
+	margin:0 auto;
+	padding:75px 50px;
+	background-color:white;
+}
+.header
+{
+	background-color:skyblue;
+	position:relative;
+	top:0;
+	height:10%;
+	width:100%;
+border-radius: 4px;
+}
+h3{
+	color:white;
+	font-size:20px;
+	text-align:center;
+	position:relative;
+	height:39px;
+top:6px;
+}
+.input-container 
+{
+ 	display:-ms-flexbox;
+  	display:flex;
+  	width:100%;
+  	margin-top:5px;
+  	margin-bottom:5px;
+padding:1px 15px;
+}
+.icon 
+{
+  	padding:10px;
+	color:#C0C0C0;
+  	background:#FFFFFF;
+  	min-width:50px;
+  	text-align:center;
+}
+.input-field 
+{
+	width:100%;
+  	padding:10px;
+  	outline:none;
+}
+.button
+{
+	margin-top:5%;
+	width:90%;
+	height:10%;
+	color:white;
+	font-size:15px;
+	border: none;
+  	border-radius: 4px;
+	background-color:skyblue;
+	border-width:thin;
+padding:3% 3%;
+-ms-transform: translate(5%, -75%);
+  transform: translate(5%, -75%);
+align:center;
+}
+.button1
+{
+	margin-top:5%;
+	width:90%;
+	height:10%;
+	color:white;
+	font-size:15px;
+	border: none;
+  	border-radius: 4px;
+	background-color:skyblue;
+	border-width:thin;
+         padding:3% 3%;
+-ms-transform: translate(5%, -75%);
+  transform: translate(5%, -75%);
+align:center;
+margin-top:50px;
+}
+.link1
+{
+	position:relative;
+	float:left;
+margin-top:-35px;
+}
+.link2
+{
+	position:relative;
+	float:right;
+margin-top:-35px;
+}
+.google 
+{
+  	background-color: #dd4b39;
+  	color: white;
+margin-top:10px;
+}
+.facebook 
+{
+  	background-color: #3B5998;
+  	color: white;
+margin-top:40px;
+}
+.epam
+{
+   	background-color: #9ACD32;	
+  	color: white;
+padding:3% 3%;
+}
+.line
+{
+text-color:#C0C0C0;
+margin-top:-40px;
+}
+</style>
+</head>
+<body>
+	<div class="form">
+	<div class="header">
+		<h3><center>Sign in<center><h3>
+	</div>
+	<div class="input-container">
+   		<input class="input-field" type="email" placeholder="mail@example.com"><i class="fa fa-envelope icon"></i>
+  	</div>
+  	<div class="input-container">
+    		<input class="input-field" type="password" placeholder="password"><i class="fa fa-lock icon"></i>
+  	</div>
+	<button class="button1" type="submit"><b>SIGN IN</b></button></br></br>
+	<a href="#" class="link1">Forgot your password?</a>
+	<a href="#" class="link2">Register!</a><br/><br/>
+	<div class="line"><pre>------------------  OR  ------------------</pre></div>
+       	<button class="button facebook" type="submit"><center><i class="fa fa-facebook fa-fw"></i></center></button>
+       	<button class="button google" type="submit"><center><i class="fa fa-google fa-fw"></i></center></button><br/><br/>
+       	<button class="button epam" type="submit"><b>&lt; EPAM LOGIN &gt;</b></button>
+	</div>
+</body>
+</html>
